@@ -1,0 +1,349 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.main .focus {
+    float: left;
+    width: 720px;
+    height: 455px;
+    background: url(../cutterman/focus1.png) no-repeat 100%;
+}
+
+.main .newsflash {
+    float: left;
+    width: 250px;
+    height: 455px;
+    margin-left: 10px;
+}
+
+.newsflash .news {
+    width: 250px;
+    height: 164px;
+}
+
+.news {
+    border: 1px solid #e4e4e4;
+}
+
+.news_hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.news_hd h5 {
+    float: left;
+    line-height: 33px;
+    color: #bfbfbf;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.news_hd a {
+    position: relative;
+    float: right;
+    line-height: 33px;
+    color: #bfbfbf;
+    margin-right: 20px;
+}
+
+.news_bd {
+    padding: 3px 10px 0;
+    border: 1px dotted #e4e4e4;
+}
+
+.news_bd ul li {
+    height: 25px;
+    line-height: 25px;
+}
+
+.news_bd ul li a {
+    font-size: 14px;
+}
+
+.news_hd a::after {
+    position: absolute;
+    top: 1px;
+    right: -15px;
+    font-family: 'icomoon';
+    content: '\e920';
+}
+
+.newsflash .lifeservice {
+    overflow: hidden;
+    width: 250px;
+    height: 208px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.newsflash .lifeservice ul {
+    width: 252px;
+}
+
+.newsflash .lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.newsflash .lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+}
+
+.lifeservice ul li i:hover {
+    cursor: pointer;
+}
+
+.lifeservice ul li .pic_1 {
+    background: url(../images/icons.png) no-repeat -17px -13px;
+}
+
+.lifeservice ul li .pic_2 {
+    background: url(../images/icons.png) no-repeat -80px -15px;
+}
+
+.lifeservice ul li .pic_3 {
+    background: url(../images/icons.png) no-repeat -142px -14px;
+}
+
+.lifeservice ul li .pic_4 {
+    background: url(../images/icons.png) no-repeat -206px -13px;
+}
+
+.lifeservice ul li .pic_5 {
+    background: url(../images/icons.png) no-repeat -16px -88px;
+}
+
+.lifeservice ul li .pic_6 {
+    background: url(../images/icons.png) no-repeat -77px -87px;
+}
+
+.lifeservice ul li .pic_7 {
+    background: url(../images/icons.png) no-repeat -140px -87px;
+}
+
+.lifeservice ul li .pic_8 {
+    background: url(../images/icons.png) no-repeat -205px -87px;
+}
+
+.lifeservice ul li .pic_9 {
+    background: url(../images/icons.png) no-repeat -16px -158px;
+}
+
+.lifeservice ul li .pic_10 {
+    background: url(../images/icons.png) no-repeat -79px -158px;
+}
+
+.lifeservice ul li .pic_11 {
+    background: url(../images/icons.png) no-repeat -141px -153px;
+}
+
+.lifeservice ul li .pic_12 {
+    background: url(../images/icons.png) no-repeat -205px -158px;
+}
+
+.newsflash .lifeservice ul li p {
+    font-size: 12px;
+}
+
+.newsflash .bargin {
+    width: 250px;
+    height: 75px;
+    margin-top: 7px;
+}
+
+.newsflash .bargin:hover {
+    cursor: pointer;
+}
+
+.recom {
+    height: 163px;
+    margin-top: 10px;
+    background-color: #ebebeb;
+}
+
+.recom .recom_hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom .recom_bd {
+    float: left;
+    width: 995px;
+    height: 163px;
+}
+
+.recom .recom_bd ul li {
+    float: left;
+    width: 248px;
+    height: 143px;
+    background-color: #ebebeb;
+}
+
+.recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom_bd ul li img:hover {
+    cursor: pointer;
+}
+
+.like {
+    height: 262px;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+}
+
+.like_hd {
+    height: 20px;
+}
+
+
+.like h4 {
+    float: left;
+    line-height: 20px;
+}
+
+.like a {
+    position: relative;
+    float: right;
+    right: 25px;
+    margin-right: 25px;
+}
+
+.like_hd a::after {
+    position: absolute;
+    top: 2px;
+    right: -27px;
+    height: 20px;
+    font-family: 'icomoon';
+    content: '\ea2e';
+
+}
+
+.like_bd {
+    margin-top: 10px;
+    /* border: 1px solid #e4e4e4; */
+}
+
+.like_bd ul li {
+    float: left;
+    width: 199px;
+    height: 233px;
+}
+
+.like_bd ul li img {
+    width: 199px;
+    height: 233px;
+}
+
+.like_bd ul li img:hover {
+    cursor: pointer;
+}
+
+/* 家用电器模块 */
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_hd {
+    height: 30px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h4 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+
+.box_hd ul li a {
+    line-height: 30px;
+}
+
+.box_hd ul li:nth-child(2n+1) {
+    float: right;
+    font-size: 12px;
+    padding: 0 15px;
+}
+
+
+.box_hd ul li:nth-child(even) {
+    float: right;
+    width: 1px;
+    height: 13px;
+    background-color: #666;
+    margin: 9px 0;
+    cursor: default;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.table_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.table_list_item .col_210 ul {
+    padding-left: 12px;
+}
+
+.table_list_item .col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 img {
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+}
